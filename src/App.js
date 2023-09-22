@@ -19,7 +19,7 @@ export default class App extends Component {
 
   render() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/iconic-newsapp' >
 
 
 		<Navber Name="Iconic News "  Home="Home" News="News" About="About" />
@@ -32,7 +32,7 @@ export default class App extends Component {
           
    <Route path="/home" element={<News1 country="in" category="general" pageSize="5"  />}/>
 
-   <Route path="/" element={
+   <Route path="/iconic-newsapp" element={
    <><Home/>
    <News1 country="in" category="general" pageSize="5"  /></>
    
