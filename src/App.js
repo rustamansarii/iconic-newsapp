@@ -32,7 +32,7 @@ export default class App extends Component {
           
    <Route path="/home" element={<News1 country="in" category="general" pageSize="5"  />}/>
 
-   <Route path="/iconic-newsapp" element={
+   <Route path="/" element={
    <><Home/>
    <News1 country="in" category="general" pageSize="5"  /></>
    
